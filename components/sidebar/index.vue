@@ -12,34 +12,29 @@
       </svg>
     </nuxt-link>
     
-    <h2 class="my-3 leading-tight">
+    <h2 class="my-3 leading-tight font-bold">
       Simon Vrachliotis
     </h2>
     
     <p class="text-grey-dark mb-8">
-      Swiss front-end designer and developer based on Sydney's Northern Beaches. Proud father of two. Surf, basketball, ukulele. Love learning, love teaching. Front-end engineer at <a class="navy no-underline dim" href="https://societyone.com.au">SocietyOne</a>.
+      Swiss front-end designer and developer based on Sydney's Northern Beaches. Proud father of two. Surf, basketball, ukulele. Love learning, love teaching. Front-end engineer at <a class="text-purple no-underline hover:underline" href="https://societyone.com.au">SocietyOne</a>.
     </p>              
     
     <ul class="list-reset mb-6">
       
       <li class="mb-1">
-        <nuxt-link class="text-purple-dark no-underline hover:underline" to="/">About</nuxt-link>
+        <nuxt-link class="text-purple no-underline hover:underline" to="/">About</nuxt-link>
       </li>
 
       <li class="mb-1">
-        <nuxt-link class="text-purple-dark no-underline hover:underline" to="/blog">Blog</nuxt-link>
+        <nuxt-link class="text-purple no-underline hover:underline" to="/blog">Blog</nuxt-link>
       </li>
 
       <li class="mb-1">
-        <nuxt-link class="text-purple-dark no-underline hover:underline" to="/contact">Contact</nuxt-link>
-      </li>
-
-      <li class="mb-1">
-        <nuxt-link class="text-purple-dark no-underline hover:underline" to="/api">Async Data (API)</nuxt-link>
+        <nuxt-link class="text-purple no-underline hover:underline" to="/contact">Contact</nuxt-link>
       </li>
     
     </ul>
-
 
     <nav class="pt0 mb4 mb0-ns">
     

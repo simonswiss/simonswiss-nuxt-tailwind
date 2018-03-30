@@ -8,13 +8,13 @@
                     <li class="mr-3 uppercase tracking-wide text-sm text-grey">February 17</li>
                 </ul>
                 
-                <h2 class="leading-tight mb-3">
-                    <nuxt-link class="no-underline" to="/blog/full-re-write-in-10-days-with-tachyons-and-functional-css-a-case-study">Full re-write in 10 days with tachyons and functional CSS: A case study</nuxt-link>
+                <h2 class="leading-tight mb-3 font-black">
+                    <nuxt-link class="no-underline text-grey-darkest hover:underline" to="/blog/full-re-write-in-10-days-with-tachyons-and-functional-css-a-case-study">Full re-write in 10 days with tachyons and functional CSS: A case study</nuxt-link>
                 </h2>
 
-                <p class="mt0 mb-4">A 4-post series taking you through a website refactoring process using tachyons, a functional CSS toolkit that is guaranteed to trigger very strong opinions [insert Dave Rupert’s hot drama soundboard effect].</p>
+                <p class="mt0 mb-4 text-grey-dark">A 4-post series taking you through a website refactoring process using tachyons, a functional CSS toolkit that is guaranteed to trigger very strong opinions [insert Dave Rupert’s hot drama soundboard effect].</p>
 
-                <nuxt-link class="text-red no-underline hover:text-red-dark" to="/blog/full-re-write-in-10-days-with-tachyons-and-functional-css-a-case-study">Read more</nuxt-link>
+                <nuxt-link class="text-purple no-underline hover:underline" to="/blog/full-re-write-in-10-days-with-tachyons-and-functional-css-a-case-study">Read more</nuxt-link>
 
             </li>
 
@@ -26,12 +26,12 @@
                 </ul>
                 
                 <h2 class="leading-tight mb-3">
-                    <nuxt-link class="no-underline" to="/blog/full-re-write-in-10-days-with-tachyons-and-functional-css-a-case-study">Full re-write in 10 days with tachyons and functional CSS: A case study</nuxt-link>
+                    <nuxt-link class="no-underline" to="/blog/react-music-my-talk-at-the-react-sydney-meetup">Full re-write in 10 days with tachyons and functional CSS: A case study</nuxt-link>
                 </h2>
 
                 <p class="mt0 mb-4">A 4-post series taking you through a website refactoring process using tachyons, a functional CSS toolkit that is guaranteed to trigger very strong opinions [insert Dave Rupert’s hot drama soundboard effect].</p>
 
-                <nuxt-link class="text-red no-underline hover:text-red-dark" to="/blog/full-re-write-in-10-days-with-tachyons-and-functional-css-a-case-study">Read more</nuxt-link>
+                <nuxt-link class="text-red no-underline hover:text-red-dark" to="/blog/react-music-my-talk-at-the-react-sydney-meetup">Read more</nuxt-link>
 
             </li>
 

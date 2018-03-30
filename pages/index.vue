@@ -1,6 +1,6 @@
 <template>  
   <div>
-    <h1 class="mb-4">Nice to meet you!</h1>
+    <h1 class="mb-4 font-black">Nice to meet you!</h1>
     <div class="cms">
       <p class="mb-4">I enjoy writing clean frontend code and building good, human relationships. I love my work and am always on the lookout for interesting new projects.</p>
       <p class="mb-12">I also teach front-end development on <a href="https://egghead.io/instructors/simon-vrachliotis">Egghead.io</a> and my <a href="https://youtube.com/simonswissdev">Youtube channel</a>, so go check these out! :)</p>

@@ -15,7 +15,8 @@
   "dependencies": {
     "axios": "^0.18.0",
     "nuxt": "^1.0.0",
-    "tailwindcss": "^0.5.1"
+    "tailwindcss": "^0.5.1",
+    "vue-tweet-embed": "^2.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

@@ -1,3 +1,47 @@
 @tailwind preflight;
+
+a {
+  color: config("colors.purple");
+}
+
+a:hover {
+  color: config("colors.purple-dark");
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @apply text-grey-darkest;
+}
+
+h1 > a,
+h2 > a,
+h3 > a,
+h4 > a {
+  @apply text-grey-darkest;
+}
+
+h1 > a:hover,
+h2 > a:hover,
+h3 > a:hover,
+h4 > a:hover {
+  @apply text-grey-darkest;
+}
+
+h1,
+h2 {
+  @apply font-black;
+}
+
+article p,
+article ul,
+article ol,
+article h2,
+article h3,
+article h4 {
+  @apply mb-6;
+}
+
 @tailwind components;
 @tailwind utilities;
