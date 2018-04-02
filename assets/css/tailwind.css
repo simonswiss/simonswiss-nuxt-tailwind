@@ -34,13 +34,16 @@ h2 {
   @apply font-black;
 }
 
-article p,
 article ul,
 article ol,
 article h2,
 article h3,
 article h4 {
   @apply mb-6;
+}
+
+article p {
+  @apply mb-4;
 }
 
 article p,
