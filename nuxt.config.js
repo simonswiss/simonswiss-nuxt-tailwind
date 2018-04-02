@@ -17,7 +17,15 @@ module.exports = {
   */
   loading: { color: "#F85B5B" },
 
-  modules: ["@nuxtjs/sitemap"],
+  modules: [
+    "@nuxtjs/sitemap",
+    [
+      "@nuxtjs/google-analytics",
+      {
+        id: "UA-22027845-1"
+      }
+    ]
+  ],
   sitemap: {
     generate: true
   },
