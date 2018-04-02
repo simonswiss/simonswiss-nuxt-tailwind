@@ -15,7 +15,9 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: "#3B8070" },
+  loading: { color: "#F85B5B" },
+
+  modules: ["@nuxtjs/sitemap"],
   /*
   ** Build configuration
   */
