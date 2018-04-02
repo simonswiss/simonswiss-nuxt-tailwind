@@ -43,5 +43,9 @@ article h4 {
   @apply mb-6;
 }
 
+article p,
+article li {
+  @apply text-grey-darker;
+}
 @tailwind components;
 @tailwind utilities;

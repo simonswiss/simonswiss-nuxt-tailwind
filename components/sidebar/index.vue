@@ -18,7 +18,7 @@
       </h2>
     </div>
     
-    <p class="text-grey-dark mt-4 mb-8">
+    <p class="text-grey-darker mt-4 md:mt-0 mb-8">
       Swiss front-end designer and developer based on Sydney's Northern Beaches. Proud father of two. Surf, basketball, ukulele. Love learning, love teaching. Front-end engineer at <a class="text-purple no-underline hover:underline" href="https://societyone.com.au">SocietyOne</a>.
     </p>              
     

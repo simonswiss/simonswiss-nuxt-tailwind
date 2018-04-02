@@ -6,7 +6,7 @@
         <h2 class="leading-tight mb-3 font-black">
             <nuxt-link class="no-underline text-grey-darkest hover:underline" :to="`/blog/${post.slug}`">{{ post.title }}</nuxt-link>
         </h2>
-        <p class="mt0 mb-4 text-grey-dark">{{ post.intro }}</p>
+        <p class="mt0 mb-4 text-grey-darker">{{ post.intro }}</p>
         <nuxt-link class="text-purple no-underline hover:underline" :to="`/blog/${post.slug}`">Read more</nuxt-link>
     </li>
 </template>
