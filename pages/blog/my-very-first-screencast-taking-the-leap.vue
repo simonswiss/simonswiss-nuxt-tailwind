@@ -72,6 +72,19 @@
 import BlogPost from "../../components/blog/BlogPost";
 export default {
   layout: "blog",
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "On the 1st of May, I did what I should have done much earlier: become pro-active. I ordered a decent microphone — the Blue Yeti, more on that later — which would sit on my desk and make me feel stupid for not making any use of it."
+        }
+      ]
+    };
+  },
   data() {
     return {
       title: "My Very First Screencast: Taking The Leap.",

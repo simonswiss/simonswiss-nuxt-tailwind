@@ -12,6 +12,19 @@
 import BlogPost from "../../components/blog/BlogPost";
 export default {
   layout: "blog",
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "I decided to create my own DIY recording booth, after watching a couple of convincing Youtube videos."
+        }
+      ]
+    };
+  },
   data() {
     return {
       title: "DIY Audio Recording Booth - Does it Work?",

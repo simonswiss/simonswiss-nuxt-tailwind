@@ -8,7 +8,7 @@
             <p>Here are links to the&nbsp;<a href="https://slides.com/simonswiss/react-music">slides of the talk</a>, as well as to the&nbsp;<a href="https://github.com/simonswiss/react-music">github repo</a>&nbsp;with the live demos presented during the talk.</p>
 						
 			<Tweet class="flex justify-center my-4" v-for="(tweet, i) in tweets" :key="i" :id="tweet" />
-            
+
         </BlogPost>
     </section>
 </template>
@@ -19,6 +19,19 @@ import { Tweet } from "vue-tweet-embed";
 
 export default {
   layout: "blog",
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Last Monday, I took a leap of faith and made my first public speaking appearance at a Sydney tech meetup. The event in questions was React Sydney, a monthly event where tickets go like hot cakes and waiting lists get notoriously long."
+        }
+      ]
+    };
+  },
   data() {
     return {
       title: "React-Music: My Talk at the React Sydney Meetup",

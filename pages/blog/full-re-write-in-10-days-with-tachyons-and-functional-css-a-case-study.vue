@@ -15,6 +15,19 @@
 import BlogPost from "../../components/blog/BlogPost";
 export default {
   layout: "blog",
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "A 4-post series taking you through a website refactoring process using tachyons, a functional CSS toolkit that is guaranteed to trigger very strong opinions [insert Dave Rupert’s hot drama soundboard effect]."
+        }
+      ]
+    };
+  },
   data() {
     return {
       title:

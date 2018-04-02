@@ -9,6 +9,7 @@
       </main>
     </div>
     <Footer/>
+    <script src="https://embed.small.chat/T5F7UGFT3G5G0GCT3P.js" async></script>
   </div>
 </template>
 

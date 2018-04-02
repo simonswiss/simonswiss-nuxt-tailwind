@@ -1,7 +1,7 @@
 <template>
     <section>
         <BlogPost :title="title" :postDate="postDate">
-          <p>Already know HTML and want to dive into a more robust, powerful templating language? </p>
+          <p>Already know HTML and want to dive into a more robust, powerful templating language?</p>
           <p>Pug is right up your alley and will transform your day-to-day workflow.</p>
           <p>The video series is <a href="https://www.youtube.com/playlist?list=PLHrxuCR-0CcSWiMuLf58iuIsNlP549-Sk">available on Youtube</a>, and here’s the teaser:</p>            
           <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
@@ -15,6 +15,19 @@
 import BlogPost from "../../components/blog/BlogPost";
 export default {
   layout: "blog",
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Already know HTML and want to dive into a more robust, powerful templating language? Pug is right up your alley and will transform your day-to-day workflow."
+        }
+      ]
+    };
+  },
   data() {
     return {
       title: "Jade/Pug: HTML Templates Beginner Course",

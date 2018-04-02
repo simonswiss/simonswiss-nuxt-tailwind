@@ -15,6 +15,19 @@
 import BlogPost from "../../components/blog/BlogPost";
 export default {
   layout: "blog",
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Today, Facebook developers have open sourced an awesome zero config React App generator tool, Create React App."
+        }
+      ]
+    };
+  },
   data() {
     return {
       title: "Easy ReactJS App with Zero Config - Great for Beginners!",

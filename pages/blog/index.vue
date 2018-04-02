@@ -12,6 +12,18 @@ export default {
   components: {
     BlogTeaser
   },
+  head() {
+    return {
+      title: "Blog | simonswiss.com",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Check out my latest blog posts."
+        }
+      ]
+    };
+  },
   data() {
     return {
       posts: [

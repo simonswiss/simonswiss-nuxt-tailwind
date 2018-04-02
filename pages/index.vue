@@ -21,3 +21,21 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: "simonswiss | Swiss front-end developer based in Sydney",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Swiss front-end designer and developer based on Sydney's Northern Beaches. Proud father of two. Surf, basketball, ukulele. Love learning, love teaching."
+        }
+      ]
+    };
+  }
+};
+</script>
