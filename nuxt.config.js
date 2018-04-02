@@ -18,6 +18,9 @@ module.exports = {
   loading: { color: "#F85B5B" },
 
   modules: ["@nuxtjs/sitemap"],
+  sitemap: {
+    generate: true
+  },
   /*
   ** Build configuration
   */
