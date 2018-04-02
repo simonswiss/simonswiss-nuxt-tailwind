@@ -83,7 +83,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .nuxt-link-exact-active {
   text-decoration: underline;
   font-weight: 700;
