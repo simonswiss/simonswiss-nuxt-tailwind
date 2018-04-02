@@ -27,7 +27,8 @@ module.exports = {
     ]
   ],
   sitemap: {
-    generate: true
+    generate: true,
+    hostname: "https://www.simonswiss.com"
   },
   /*
   ** Build configuration

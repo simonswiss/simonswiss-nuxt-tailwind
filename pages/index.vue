@@ -14,7 +14,7 @@
         <li>🙉 Utility-first CSS</li>
         <li>⚛️ React / Preact / VueJS</li>
         <li>🛠 Gulp / npm / webpack</li>
-        <li>⚡️ <a href="https://developers.google.com/speed/pagespeed/insights/?url=simonswiss.com">Page Speed</a> &amp; Performance</li>
+        <li>⚡️ <a href="https://developers.google.com/speed/pagespeed/insights/?url=https://simonswiss.com">Page Speed</a> &amp; Performance</li>
         <li>🐍 <strike>Snake-oil</strike> SEO</li>
         <li>🤓 GIT / command line </li>
       </ul>
