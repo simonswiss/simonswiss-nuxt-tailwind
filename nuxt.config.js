@@ -1,3 +1,13 @@
+const PurgecssPlugin = require("purgecss-webpack-plugin");
+const glob = require("glob-all");
+const path = require("path");
+
+class TailwindExtractor {
+  static extract(content) {
+    return content.match(/[A-z0-9-:\/]+/g);
+  }
+}
+
 module.exports = {
   /*
   ** Headers of the page
@@ -34,10 +44,36 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    extractCSS: true,
+    postcss: [
+      require("tailwindcss")("./tailwind/tailwind.js"),
+      require("autoprefixer")
+    ],
     /*
     ** Run ESLint on save
     */
     extend(config, { isDev, isClient }) {
+      // if (!isDev) {
+      // Remove unused CSS using purgecss. See https://github.com/FullHuman/purgecss
+      // for more information about purgecss.
+      config.plugins.push(
+        new PurgecssPlugin({
+          paths: glob.sync([
+            path.join(__dirname, "./pages/**/*.vue"),
+            path.join(__dirname, "./layouts/**/*.vue"),
+            path.join(__dirname, "./components/**/*.vue")
+          ]),
+          extractors: [
+            {
+              extractor: TailwindExtractor,
+              extensions: ["html", "js", "vue"]
+            }
+          ],
+          whitelist: ["html", "body"]
+        })
+      );
+      // }
+
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: "pre",
