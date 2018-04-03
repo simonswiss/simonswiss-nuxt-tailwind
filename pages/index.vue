@@ -3,7 +3,7 @@
     <h1 class="mb-4 font-black leading-tight text-3xl lg:text-4xl">Nice to meet you!</h1>
     <div class="cms">
       <p>I enjoy writing clean frontend code and building good, human relationships. I love my work and am always on the lookout for interesting new projects.</p>
-      <p class="mb-12">I also teach front-end development on <a href="https://egghead.io/instructors/simon-vrachliotis">Egghead.io</a> and my <a href="https://youtube.com/simonswissdev">YouTube channel</a>, so go check these out! :)</p>
+      <p class="mb-12">I also teach front-end development on <a href="https://egghead.io/instructors/simon-vrachliotis">egghead.io</a> and my <a href="https://youtube.com/simonswissdev">YouTube channel</a>, so go check these out! :)</p>
 
       <h3>My current skillset and weapons of choice:</h3>
       <ul class="pl-6">
