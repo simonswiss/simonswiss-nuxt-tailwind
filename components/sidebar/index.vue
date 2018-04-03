@@ -1,5 +1,5 @@
 <template>
-  <div class="pr-12 max-w-sm md:border-r border-grey-lighter mb-16">
+  <div class="pr-12 max-w-sm md:border-r border-grey-lighter mb-8">
             
     <div class="flex md:flex-col items-center md:items-start">
       <!-- Logo -->
