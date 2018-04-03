@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col h-screen justify-between">
     <div>
-      <div class="my-16 max-w-xl mx-auto px-6 md:flex font-sans leading-normal">
+      <div class="my-8 md:my-16 max-w-xl mx-auto px-6 md:flex font-sans leading-normal">
         <aside class="md:w-1/2 lg:w-1/3">
           <SideBar/>
         </aside>
